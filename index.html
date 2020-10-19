@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgb(33, 101, 141);
+            }
+            form{
+                background-color: rgb(116, 116, 116);
+                width: 20%;
+                margin: 0 auto;
+                height: 100px;
+            }
+            #submit, #glemNavn{
+               background-color: rgb(116, 116, 116); 
+               border: solid 1px black;
+               cursor: pointer;
+            }
+
+        </style>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">
+            Velkommen til 
+        </h1>
+        <form>
+            <div class="Husk">
+                <label for="Navn">Navn:</label>
+                <input id="navn" type="text" required>
+                <input id="submit" value="Submit" type="submit">
+            </div>
+                <br/>
+                <br/>
+            <div class="Glem">
+                <label for="glemNavn">Glem navn:</label>
+                <input id="glemNavn" type="reset" value="Forget">
+            </div>
+        </form>
+        <p id="text">
+            Hej med dig 
+        </p>
+    </body>
+</html> 
